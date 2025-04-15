@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Quizes</title>
+    <link rel="stylesheet" href="ques.css">
+</head>
+<body>
+    <div id="mainDiv">
+        <p>Title</p>
+        <input type="text"  id="title" placeholder="title">
+        <p>question</p>
+        <input type="text" id="ques" placeholder="question">
+        <div>
+            <p>options</p>
+            <input type="text" id="option1" placeholder="option1">
+            <input type="text" id="option2" placeholder="option2">
+            <input type="text" id="option3"  placeholder="option3">
+            <input type="text" id="option4" placeholder="option4">
+            <p>correctOption</p>
+            <input type="text" id="correctOption" placeholder="correctOption">
+            <button onclick="addQuestion()">Add Question</button>
+        </div>
+        <button onclick="addQuiz()">Add Quiz</button>
+    </div>
+    
+
+
+    <script src="ques.js"></script>
+</body>
+</html>

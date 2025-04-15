@@ -1,0 +1,12 @@
+input {
+    height: 40px;
+    width: 400px;
+    display: block;
+    font-size: larger;
+}
+
+#mainDiv {
+    width: 400px;
+    height: 90vh;
+    margin: auto;
+}
