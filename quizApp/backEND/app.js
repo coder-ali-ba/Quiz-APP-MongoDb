@@ -114,8 +114,14 @@ app.post("/logIn",  async(request , response) => {
 
         // const saveCurrent = await logIn.create(body)
 
+        console.log(findUser)
+
          response.json({
-            data : findUser,
+            data : {
+                ...body,
+                userPassword : comPass,
+                userType : findUser.userType
+            },
             message : "user Found"
          })
 

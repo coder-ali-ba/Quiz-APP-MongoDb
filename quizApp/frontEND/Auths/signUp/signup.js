@@ -11,7 +11,8 @@ const sign = async() =>{
             phNo : phoneNo.value,
             email : email.value,
             gender : gender.value,
-            password : password.value
+            password : password.value,
+            userType : "User"
         }
     
         const response =  await fetch("http://localhost:8080/signUp" , {
